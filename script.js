@@ -62,3 +62,9 @@ console.log(getFirstElement(['Helo', 241]));
 console.log(getFirstElement([241, 'faqs']));
 console.log(getFirstElement([]));
 console.log(getFirstElement());
+
+// Variable
+let language = 'JavaScript';
+language = language || 'Unknown';
+
+console.log(language); // Output: 'JavaScript' (if language has a truthy value)
